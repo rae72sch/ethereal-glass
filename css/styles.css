@@ -1,0 +1,147 @@
+/* Site Wide Styles */
+
+body {
+   background-color: #000;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #fff;
+   padding-left: 8%;
+   padding-right: 8%;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* Header Styles */
+
+.head-container {
+    padding-top: 20px;
+    border-bottom: 1px solid #1D6799;
+    /* next 2 lines keep the header at the top while the page scrolls */
+    position: sticky;
+    top: 0;
+    background-color: #000;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.header img {
+    height: 150px;
+    max-width: 100%;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav span a {
+    color: #fff;
+    size: 200px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    padding-right: 60px;
+    text-decoration: none;
+}
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #82a5d5;
+}
+
+a:visited {
+    color: #1D6799;
+}
+
+
+/* Welcome Section Styles */
+
+.welcome {
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+
+/* Gallery Section Styles */
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap; /* fixes layout issues */
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.gallery-item {
+    padding: 2%;
+}
+
+.gallery-item img {
+    height: 280px;
+    width: 300px;
+}
+
+
+/* Maker Section Styles */
+
+.maker {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+
+/* Team Section Styles */
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap; /* fixes layout issues */
+    justify-content:center;
+}
+
+.team-item {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.team-item img {
+    height: 150px;
+    width: 150px;
+}
+
+
+/* Footer Section Styles */
+
+.footer {
+    font-size: 12px;
+    margin-top: 8%;
+}
+
+.footer-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
