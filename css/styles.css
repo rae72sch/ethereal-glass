@@ -145,3 +145,10 @@ a:visited {
 }
 
 
+* Media Queries */
+
+@media screen and (max-width: 425px) {
+    p {
+        font-size: 0.2rem;
+    }
+}
